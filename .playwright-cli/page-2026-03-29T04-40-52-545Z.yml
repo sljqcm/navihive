@@ -1,0 +1,121 @@
+- generic [ref=e8]:
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e15]: 访客模式
+          - generic [ref=e17]: 全部内容
+          - generic [ref=e19]: 3 个可见站点
+        - heading "个人导航" [level=1] [ref=e20]
+        - paragraph [ref=e21]: 这里展示的是你愿意公开分享的那部分导航内容，同时保留一套更灵活、更有质感的浏览与回访体验。
+      - generic [ref=e22]:
+        - button "管理员登录" [ref=e23] [cursor=pointer]
+        - button "切换主题" [ref=e24] [cursor=pointer]:
+          - img [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - text: 分组
+        - heading "2" [level=4] [ref=e29]
+        - paragraph [ref=e30]: 分层整理结构
+      - generic [ref=e31]:
+        - text: 站点
+        - heading "3" [level=4] [ref=e32]
+        - paragraph [ref=e33]: 统一汇总入口
+      - generic [ref=e34]:
+        - text: 收藏
+        - heading "0" [level=4] [ref=e35]
+        - paragraph [ref=e36]: 本地个性化快捷区
+      - generic [ref=e37]:
+        - text: 最近访问
+        - heading "0" [level=4] [ref=e38]
+        - paragraph [ref=e39]: 快速回到常用网站
+    - generic [ref=e41]:
+      - group [ref=e42]:
+        - button "站内搜索" [pressed] [ref=e43] [cursor=pointer]:
+          - img [ref=e44]
+        - button "站外搜索" [ref=e47] [cursor=pointer]:
+          - img [ref=e48]
+      - generic [ref=e50]:
+        - textbox "搜索" [ref=e52]:
+          - /placeholder: 搜索站点、分组...
+        - generic [ref=e54]: Ctrl / Cmd + K
+        - button [disabled]:
+          - img
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - button "全部内容" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: 全部内容
+        - button "仅看收藏" [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: 仅看收藏
+        - button "最近访问" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: 最近访问
+      - generic [ref=e63]:
+        - button "常用工具 · 2" [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]: 常用工具 · 2
+        - button "开发资源 · 1" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 开发资源 · 1
+  - generic [ref=e69]:
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - generic [ref=e74] [cursor=pointer]:
+          - button [ref=e75]:
+            - img [ref=e76]
+          - heading "常用工具" [level=2] [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e81]: 公开分组
+          - generic [ref=e83]: 2 个站点
+      - generic [ref=e87]:
+        - generic [ref=e90]:
+          - button "加入收藏" [ref=e92] [cursor=pointer]:
+            - img [ref=e93]
+          - button "Google Google 搜索引擎 www.google.com 访问" [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - img "Google" [ref=e99]
+                - heading "Google" [level=6] [ref=e100]
+              - paragraph [ref=e101]: 搜索引擎
+              - generic [ref=e102]:
+                - generic [ref=e104]: www.google.com
+                - generic [ref=e105]:
+                  - generic [ref=e106]: 访问
+                  - img [ref=e107]
+        - generic [ref=e111]:
+          - button "加入收藏" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+          - button "GitHub GitHub 代码托管平台 github.com 访问" [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - img "GitHub" [ref=e120]
+                - heading "GitHub" [level=6] [ref=e121]
+              - paragraph [ref=e122]: 代码托管平台
+              - generic [ref=e123]:
+                - generic [ref=e125]: github.com
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 访问
+                  - img [ref=e128]
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - generic [ref=e134] [cursor=pointer]:
+          - button [ref=e135]:
+            - img [ref=e136]
+          - heading "开发资源" [level=2] [ref=e138]
+        - generic [ref=e139]:
+          - generic [ref=e141]: 公开分组
+          - generic [ref=e143]: 1 个站点
+      - generic [ref=e150]:
+        - button "加入收藏" [ref=e152] [cursor=pointer]:
+          - img [ref=e153]
+        - button "S Stack Overflow 技术问答社区 stackoverflow.com 访问" [ref=e155] [cursor=pointer]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: S
+              - heading "Stack Overflow" [level=6] [ref=e159]
+            - paragraph [ref=e160]: 技术问答社区
+            - generic [ref=e161]:
+              - generic [ref=e163]: stackoverflow.com
+              - generic [ref=e164]:
+                - generic [ref=e165]: 访问
+                - img [ref=e166]
+  - link [ref=e169] [cursor=pointer]:
+    - /url: https://github.com/zqq-nuli/Navihive
+    - img [ref=e170]

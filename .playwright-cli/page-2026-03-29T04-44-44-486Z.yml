@@ -1,0 +1,32 @@
+- generic [ref=e174]:
+  - generic [ref=e175]:
+    - img [ref=e177]
+    - generic [ref=e179]: NaviHive Admin
+    - heading "导航站登录" [level=1] [ref=e180]
+    - paragraph [ref=e181]: 登录后可以管理分组、拖拽排序、调整样式，并维护只对自己可见的私密内容。
+  - alert [ref=e202]:
+    - img [ref=e204]
+    - generic [ref=e206]: 用户名或密码错误
+  - generic [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - text: 用户名
+        - generic [ref=e185]: "*"
+      - generic [ref=e186]:
+        - textbox "用户名" [ref=e187]: CJX
+        - group:
+          - generic: 用户名 *
+    - generic [ref=e188]:
+      - generic [ref=e197]:
+        - text: 密码
+        - generic [ref=e198]: "*"
+      - generic [ref=e189]:
+        - textbox "密码" [active] [ref=e190]: Chen1215@
+        - group:
+          - generic: 密码 *
+    - generic [ref=e191] [cursor=pointer]:
+      - generic [ref=e192]:
+        - checkbox "记住我（一个月内免登录）" [checked] [ref=e193]
+        - img [ref=e200]
+      - generic [ref=e196]: 记住我（一个月内免登录）
+    - button "登录" [ref=e199] [cursor=pointer]

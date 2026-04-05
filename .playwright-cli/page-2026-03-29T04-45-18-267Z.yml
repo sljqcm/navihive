@@ -1,0 +1,216 @@
+- generic [ref=e2]:
+  - alert [ref=e207]:
+    - img [ref=e209]
+    - generic [ref=e211]: 用户名或密码错误
+    - button "Close" [ref=e213] [cursor=pointer]:
+      - img [ref=e214]
+  - generic [ref=e217]:
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e224]: 管理模式
+            - generic [ref=e226]: 全部内容
+            - generic [ref=e228]: 5 个可见站点
+          - heading "个人导航" [level=1] [ref=e229]
+          - paragraph [ref=e230]: 把常用网站整理成一个真正可用的私人工作台。现在这版首页会优先照顾快速访问、局部管理和你的本地个性化习惯。
+        - generic [ref=e231]:
+          - button "新增分组" [ref=e232] [cursor=pointer]:
+            - img [ref=e234]
+            - text: 新增分组
+          - button "更多选项" [ref=e236] [cursor=pointer]:
+            - img [ref=e238]
+            - text: 更多选项
+          - button "切换主题" [ref=e240] [cursor=pointer]:
+            - img [ref=e241]
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - text: 分组
+          - heading "3" [level=4] [ref=e245]
+          - paragraph [ref=e246]: 分层整理结构
+        - generic [ref=e247]:
+          - text: 站点
+          - heading "5" [level=4] [ref=e248]
+          - paragraph [ref=e249]: 统一汇总入口
+        - generic [ref=e250]:
+          - text: 收藏
+          - heading "0" [level=4] [ref=e251]
+          - paragraph [ref=e252]: 本地个性化快捷区
+        - generic [ref=e253]:
+          - text: 最近访问
+          - heading "0" [level=4] [ref=e254]
+          - paragraph [ref=e255]: 快速回到常用网站
+      - generic [ref=e257]:
+        - group [ref=e258]:
+          - button "站内搜索" [pressed] [ref=e259] [cursor=pointer]:
+            - img [ref=e260]
+          - button "站外搜索" [ref=e263] [cursor=pointer]:
+            - img [ref=e264]
+        - generic [ref=e266]:
+          - textbox "搜索" [ref=e268]:
+            - /placeholder: 搜索站点、分组...
+          - generic [ref=e270]: Ctrl / Cmd + K
+          - button [disabled]:
+            - img
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - button "全部内容" [ref=e273] [cursor=pointer]:
+            - generic [ref=e274]: 全部内容
+          - button "仅看收藏" [ref=e275] [cursor=pointer]:
+            - generic [ref=e276]: 仅看收藏
+          - button "最近访问" [ref=e277] [cursor=pointer]:
+            - generic [ref=e278]: 最近访问
+        - generic [ref=e279]:
+          - button "常用工具 · 3" [ref=e280] [cursor=pointer]:
+            - generic [ref=e281]: 常用工具 · 3
+          - button "开发资源 · 1" [ref=e282] [cursor=pointer]:
+            - generic [ref=e283]: 开发资源 · 1
+          - button "私密分组 · 1" [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]: 私密分组 · 1
+    - generic [ref=e287]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292] [cursor=pointer]:
+              - button [ref=e293]:
+                - img [ref=e294]
+              - heading "常用工具" [level=2] [ref=e296]
+            - generic [ref=e297]:
+              - generic [ref=e299]: 公开分组
+              - generic [ref=e301]: 3 个站点
+          - generic [ref=e302]:
+            - button "添加卡片" [ref=e303] [cursor=pointer]:
+              - img [ref=e305]
+              - text: 添加卡片
+            - button "排序" [ref=e307] [cursor=pointer]:
+              - img [ref=e309]
+              - text: 排序
+            - button "编辑分组" [ref=e311] [cursor=pointer]:
+              - img [ref=e312]
+        - generic [ref=e317]:
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - button "加入收藏" [ref=e322] [cursor=pointer]:
+                - img [ref=e323]
+              - button "网站设置" [ref=e325] [cursor=pointer]:
+                - img [ref=e326]
+            - button "Google Google 搜索引擎 www.google.com 访问" [ref=e328] [cursor=pointer]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - img "Google" [ref=e332]
+                  - heading "Google" [level=6] [ref=e333]
+                - paragraph [ref=e334]: 搜索引擎
+                - generic [ref=e335]:
+                  - generic [ref=e337]: www.google.com
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: 访问
+                    - img [ref=e340]
+          - generic [ref=e344]:
+            - generic [ref=e345]:
+              - button "加入收藏" [ref=e346] [cursor=pointer]:
+                - img [ref=e347]
+              - button "网站设置" [ref=e349] [cursor=pointer]:
+                - img [ref=e350]
+            - button "GitHub GitHub 代码托管平台 github.com 访问" [ref=e352] [cursor=pointer]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - img "GitHub" [ref=e356]
+                  - heading "GitHub" [level=6] [ref=e357]
+                - paragraph [ref=e358]: 代码托管平台
+                - generic [ref=e359]:
+                  - generic [ref=e361]: github.com
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: 访问
+                    - img [ref=e364]
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - button "加入收藏" [ref=e370] [cursor=pointer]:
+                - img [ref=e371]
+              - button "网站设置" [ref=e373] [cursor=pointer]:
+                - img [ref=e374]
+            - button "私密书签 私密书签 私密站点（仅管理员可见） private.example.com 访问" [ref=e376] [cursor=pointer]:
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - img "私密书签" [ref=e380]
+                  - heading "私密书签" [level=6] [ref=e381]
+                - paragraph [ref=e382]: 私密站点（仅管理员可见）
+                - generic [ref=e383]:
+                  - generic [ref=e385]: private.example.com
+                  - generic [ref=e386]:
+                    - generic [ref=e387]: 访问
+                    - img [ref=e388]
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394] [cursor=pointer]:
+              - button [ref=e395]:
+                - img [ref=e396]
+              - heading "开发资源" [level=2] [ref=e398]
+            - generic [ref=e399]:
+              - generic [ref=e401]: 公开分组
+              - generic [ref=e403]: 1 个站点
+          - generic [ref=e404]:
+            - button "添加卡片" [ref=e405] [cursor=pointer]:
+              - img [ref=e407]
+              - text: 添加卡片
+            - button "排序" [ref=e409] [cursor=pointer]:
+              - img [ref=e411]
+              - text: 排序
+            - button "编辑分组" [ref=e413] [cursor=pointer]:
+              - img [ref=e414]
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - button "加入收藏" [ref=e424] [cursor=pointer]:
+              - img [ref=e425]
+            - button "网站设置" [ref=e427] [cursor=pointer]:
+              - img [ref=e428]
+          - button "S Stack Overflow 技术问答社区 stackoverflow.com 访问" [ref=e430] [cursor=pointer]:
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433]: S
+                - heading "Stack Overflow" [level=6] [ref=e434]
+              - paragraph [ref=e435]: 技术问答社区
+              - generic [ref=e436]:
+                - generic [ref=e438]: stackoverflow.com
+                - generic [ref=e439]:
+                  - generic [ref=e440]: 访问
+                  - img [ref=e441]
+      - generic [ref=e444]:
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - generic [ref=e447] [cursor=pointer]:
+              - button [ref=e448]:
+                - img [ref=e449]
+              - heading "私密分组" [level=2] [ref=e451]
+            - generic [ref=e452]:
+              - generic [ref=e454]: 私密分组
+              - generic [ref=e456]: 1 个站点
+          - generic [ref=e457]:
+            - button "添加卡片" [ref=e458] [cursor=pointer]:
+              - img [ref=e460]
+              - text: 添加卡片
+            - button "排序" [ref=e462] [cursor=pointer]:
+              - img [ref=e464]
+              - text: 排序
+            - button "编辑分组" [ref=e466] [cursor=pointer]:
+              - img [ref=e467]
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - button "加入收藏" [ref=e477] [cursor=pointer]:
+              - img [ref=e478]
+            - button "网站设置" [ref=e480] [cursor=pointer]:
+              - img [ref=e481]
+          - button "内 内部工具 公司内部工具 internal.example.com 访问" [ref=e483] [cursor=pointer]:
+            - generic [ref=e484]:
+              - generic [ref=e485]:
+                - generic [ref=e486]: 内
+                - heading "内部工具" [level=6] [ref=e487]
+              - paragraph [ref=e488]: 公司内部工具
+              - generic [ref=e489]:
+                - generic [ref=e491]: internal.example.com
+                - generic [ref=e492]:
+                  - generic [ref=e493]: 访问
+                  - img [ref=e494]
+    - link [ref=e497] [cursor=pointer]:
+      - /url: https://github.com/zqq-nuli/Navihive
+      - img [ref=e498]
